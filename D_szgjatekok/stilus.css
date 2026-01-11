@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin-bottom: 0px;
+    background-image: url(kepek/black.png)
+}
+main {
+    max-width: 1080px;
+    margin: auto;
+    background-color: white;
+}
+
+header {
+    background-image: url(kepek/game.jpg);
+    height: 550px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+section {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+aside img{
+    max-width: 100%;
+    margin-top: 60px;
+    padding: 20px;
+}
+footer { 
+    text-align: center;
+    background-color: orange;
+    margin-top: 20px;
+}
