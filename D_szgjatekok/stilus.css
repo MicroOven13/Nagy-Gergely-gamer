@@ -8,12 +8,13 @@ body {
 main {
     max-width: 1080px;
     margin: auto;
-    background-color: white;
+    background-color: rgb(236, 220, 220);
+
 }
 
 header {
     background-image: url(kepek/game.jpg);
-    height: 550px;
+    height: 400px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -21,15 +22,34 @@ header {
 section {
     display: grid;
     grid-template-columns: 2fr 1fr;
+    padding: 20px;
 }
 
 aside img{
     max-width: 100%;
     margin-top: 60px;
-    padding: 20px;
 }
 footer { 
     text-align: center;
     background-color: orange;
     margin-top: 20px;
 }
+nav {
+    background-color: gray;
+}
+nav a {
+    padding: 20px;
+    color: aliceblue;
+    text-decoration: none;
+    border-right: 1px solid white;
+    display: inline-block;
+    
+}
+nav a:hover {
+    color: white;
+    background-color: orange;
+}
+
+@media screen and (max-width: 768px) {
+    section {grid-template-columns: 1fr;
+}}
